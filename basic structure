@@ -1,0 +1,15 @@
+#include <stdio.h>
+struct structure
+{
+    char a[50];
+    float b;
+    
+}s;
+
+ int main()
+ {
+     printf("enter the name :");
+     fgets(s.a,sizeof(s.a),stdin);
+     printf("%s",s.a);
+     return 0;
+ }
